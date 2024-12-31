@@ -14,25 +14,9 @@
     <link rel="stylesheet" href="style.css">
     
 <!--     <script type="text/javascript" id="mbjs" src="https://test-user.themoneymaker.xyz/cl/js/tejO7"></script> -->
-    <script type="text/javascript">
-        function detectAdblock(callback) {
-    fetch('https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js', {
-        method: 'HEAD',
-        mode: 'no-cors',
-    }).then((response) => {
-        // If the request is redirected, then the ads are blocked.
-        callback(response.redirected)
-    }).catch(() => {
-        // If the request fails completely although connected to the internet, 
-        // then the ads are blocked.
-        callback(window.navigator.onLine)
-    })
-}
+    <noscript><meta http-equiv="refresh" content="0;url=https://contentlocked.net/noscript" /></noscript>
+<script type="text/javascript" id="ogjs" src="https://contentlocked.net/cl/js/5kdem1"></script>
 
-detectAdblock((isAdblockerDetected) => {
-    console.log(`ads are ${isAdblockerDetected ? 'blocked' : 'not blocked'}`)
-})
-    </script>
 
 
 </head>
