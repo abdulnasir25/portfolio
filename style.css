@@ -164,17 +164,17 @@ h1 {
 }
 
 #hero .hero-container .left {
-    width: 40%;
-
+    width: 70%;
 }
 
 #hero .hero-container .right {
-    width: 60%;
+    width: 30%;
 }
 
 #hero .hero-container .right img {
     width: 100%;
     padding: 0 0 20px 20px;
+    border-radius: 70%;
 }
 
 #hero .hero-container .left .left-1 {
@@ -190,7 +190,7 @@ h1 {
 }
 
 #hero .hero-container .left .left-1 h2 {
-    font-size: 200px;
+    font-size: 119px;
     z-index: 2;
     line-height: 160px;
     margin-top: 10px;
@@ -277,7 +277,8 @@ h1 {
 }
 
 .container .about .about-1 img {
-    width: 250px;
+    /* width: 250px; */
+    border-radius: 10px;
     height: 350px;
     margin: 0 10px;
 }
@@ -1177,7 +1178,7 @@ h1 {
 }
 
 .gp1 {
-    background-image: url(proj1.png);
+    background-image: url(p-themoneymaker-xyz.png);
 }
 
 .gp2 {
